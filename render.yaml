@@ -3,6 +3,7 @@ services:
   name: redis
   env: docker
   autoDeploy: false
+  region: frankfurt
   disk:
     name: data
     mountPath: /var/lib/redis
